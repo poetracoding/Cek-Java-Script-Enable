@@ -34,14 +34,18 @@
 </head>
 
 <body>
+    <!-- menggunakan css -->
     <noscript class="noscript">
         <div id="javascript-notice">
             <img src="logo.jpg" width="350px" alt="JavaScript Disabled Notice" title="JavaScript Disabled Notice" />
             <p>Pelajari <a href="https://www.enable-javascript.com/id/" target="_blank">cara mengaktifkan JavaScript</a> di browser Anda.<p>
         </div>
     </noscript>
+
+    <!-- menggunakan PHP -->
     <!-- <noscript>
-        <?php header('Location:blank.php'); ?>
+        <?php //header('Location:blank.php'); 
+        ?>
     </noscript> -->
     Di sini pastinya banyak kode untuk menampilkan konten/elemen di situs Anda dan dengan CSS kita bisa membuatnya tertutupi oleh elemen yang ada di tag noscript.
 </body>
